@@ -1,0 +1,93 @@
+<div class="box">
+    <div class="grp-btn-container">
+      <a href="#form" class="btn btn-1">Be an Expert Guest</a>
+      <a href="#" class="btn btn-2">Contact Us Now</a>
+      <span class="separator ">OR</span>
+    </div>
+  </div>
+
+
+  <style>
+    .box{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .grp-btn-container{
+      position: relative;
+      display: flex;
+      align-items: center;
+      width: 450px;
+      border-radius: 50px;
+      overflow: hidden;
+    }
+    
+    .btn{
+      display: inline-block;
+      text-decoration: none;
+      color: #fff;
+      padding: 18px 0;
+      text-align: center;
+      font-family: Montserrat;
+    
+      text-transform: uppercase;
+      font-size: 14px;
+      font-family: Open sans;
+      transition: all .3s ease-in;
+      font-weight: 700;
+    }
+    
+    .btn.btn-1{
+      width: 51%;
+      background: #3682FF;
+    }
+    .btn.btn-1:hover{
+       background: #17214f;
+    }
+    .btn.btn-2{
+      width: 49%;
+      background: #007D8B;
+    }
+    .btn.btn-2:hover{
+      background: #024D5D;
+    }
+    
+    .separator{
+      position: absolute;
+      height: 34px;
+      width: 34px;
+      left: calc(50% - 15px);
+      top: calc(50% - 17px);
+      background: #fff;
+      color: #000;
+      font-weight: 700;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 12px;
+      font-family: Open sans;
+      border-radius: 50%;
+      box-shadow: 0 0 0 5px rgba(255,255,255,.3);
+      transform: scale(1);
+        animation: pulse-black 2s infinite !important;
+    }
+      
+      /*Animations Icons Push*/
+    
+    @keyframes pulse-black {
+        0% {
+        transform: scale(0.95);
+        box-shadow: 0 0 0 0 rgba(179, 161, 243, 0.7);
+        }
+        
+        70% {
+        transform: scale(1);
+        box-shadow: 0 0 0 10px rgba(151, 184, 245, 0.13);
+        }
+        
+        100% {
+        transform: scale(0.95);
+        box-shadow: 0 0 0 0 rgba(202, 192, 248, 0);
+        }
+        }
+    </style>
