@@ -1,0 +1,14 @@
+/*Copyright*/
+.copyright-footer{
+	text-align: center;
+	color: #ffffffb8;
+	font-family: "Montserrat";
+	font-weight: 600;
+    text-transform: Uppercase;
+	font-size: 14px;
+}
+
+.copyright-footer a{	
+	color: #FFF;
+	font-weight: 800;
+}
