@@ -1,0 +1,10 @@
+/*Reverse Row in DIVI start 980px*/
+
+/* Class in Row DIVI custom Class */
+
+@media (max-width:980px) {
+	.reverse-columns-mobile {
+		display: flex;
+		flex-direction: column-reverse;
+	}
+}
