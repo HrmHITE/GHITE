@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+  }
+  body {
+    display: flex;
+    justify-content: center;
+    background: #020e26;
+    font-family: "Roboto";
+    padding-top: 128px;
+  }
+  .container {
+    width: 224px;
+  }
+  .container ul {
+    padding: 0;
+  }
+  .container ul li {
+    list-style-type: none;
+    padding: 12px;
+    background: #ffffff;
+    transition: 0.25s;
+    cursor: pointer;
+  }
+  .container ul li:nth-child(odd) {
+    background: #ebebeb;
+  }
+  .container ul li:hover {
+    background: #dedede;
+  }
+  .container input {
+    padding: 12px 16px;
+    font-size: 16px;
+    font-family: inherit;
+    outline: none;
+    border: none;
+    width: 100%;
+  }
