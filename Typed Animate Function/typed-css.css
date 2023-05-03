@@ -1,0 +1,28 @@
+/*************************
+**** Typed function script ******
+**************************/
+/*Bandege JS Word Animate*/
+.inner-text {
+  font-size: 50px;
+	position: relative;
+}
+
+.p1, .p2 {
+  display: inline-block;
+  font-size: 1em;
+  font-weight: 600;
+  margin: 0;
+  line-height: 1;
+  color: #f5f5f5;
+  padding-bottom: 0px !important;
+  font-family:"Montserrat" !important;
+ }
+
+.p2 {
+ font-weight: 700 !important;
+  color: #fff;
+}
+
+.typed-cursor{
+	color: #fff !important;
+}
